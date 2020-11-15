@@ -7,7 +7,7 @@ const proxy = require("http-proxy-middleware");
 
 module.exports = function (app) {
     app.use(proxy("/smart", {
-        target: "http://api-dev.wesmartclothing.com:15320/",
+        target: "https://www.baidu.com",
         changeOrigin: true,
     }))
 };
